@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Welcome to Magic!</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+
+	<div id = "connStatus">Connecting...</div>
+	
+	<div id = "blackScreen"> <img id = "bg_image" src="images/username_picture.jpg"></div>
+	<div id = "username_prompt">
+		<input id="username_area" type="text" placeholder="Username"><br/>
+		<input id="readyBtn" type="image" src="images/readyBtn.jpg" onclick="setUsername()">
+	</div>
+
+	<div id = "lobby_panel">
+		<input id="playBtn" type="image" src="images/playBtn.jpg" onclick="requestToPlay()">
+		<div id = "lobby_usernames">
+			<ul id='usernames'></ul>
+		</div>
+		<p id = "selectedUser"></p>
+	</div>
+
+	<div id = "playRequest_panel">
+		<p id = "requestMessage"></p>
+		<input id="acceptBtn" type="image" src="images/accept.jpg" onclick="acceptRequest()">
+		<input id="rejectBtn" type="image" src="images/reject.jpg" onclick="rejectRequest()">
+	</div>
+
+	<img id='cardInDetailedView'>
+
+	<input id="stopTimerBtn" class = "optionBtns" type="image" src="images/stopTimerBtn.jpg" onclick="toggleTimer('pressed')">
+	<input id="continueBtn" class = "optionBtns" type="image" src="images/continueBtn.jpg" onclick="skipPhase()">
+
+	<div id = "player1" class = "player">
+
+		<img id = "player1_pic" class = "picture" src="../images/player1.jpg">
+
+		<img id = "p1_status_image" class = "status_image" src = "images/status_image.jpg">
+
+		<div id = "p1_status" class = "status" ></div>
+		<div id = "p1_timer" class = "timer" ></div>
+
+		<div class = "health_border">
+			<div class = "health"></div>
+			<p id = "player1_healthtext" class = "healthtext"></p>
+		</div>
+
+	</div>
+
+	<div id = "player2" class = "player">
+
+		<img id = "player2_pic" class = "picture" src="images/player2.jpg">
+
+		<img id = "p1_status_image" class = "status_image" src = "images/status_image.jpg">
+
+		<div id = "p2_status" class = "status" ></div>
+		<div id = "p2_timer" class = "timer" ></div>
+
+		<div class = "health_border">
+			<div class = "health"></div>
+			<p id = "player2_healthtext" class = "healthtext"></p>
+		</div>
+
+	</div>
+
+	<div id='container'></div>
+	<script>
+
+		var connStatus = document.getElementById( "connStatus" );
+
+		var username_prompt = document.getElementById( "username_prompt" );
+		var username_area = document.getElementById( "username_area" );
+		var cardInDetailedView = document.getElementById( "cardInDetailedView" );
+		var usernames = document.getElementById( "usernames" );
+		var lobby_panel = document.getElementById( "lobby_panel" );
+		var lobby_usernames = document.getElementById( "lobby_usernames" );
+		var selectedUser = document.getElementById( "selectedUser" );
+
+		var bg_image = document.getElementById( "bg_image" );
+		var requestMessage = document.getElementById( "requestMessage" );
+		
+		var player1_pic = document.getElementById( "player1_pic" );
+		var player2_pic = document.getElementById( "player2_pic" );
+		
+		var player1_healthtext = document.getElementById( "player1_healthtext" );
+		var player2_healthtext = document.getElementById( "player2_healthtext" );
+
+		var p1_status = document.getElementById( "p1_status" );
+		var p2_status = document.getElementById( "p2_status" );
+
+		var p1_timer = document.getElementById( "p1_timer" );
+		var p2_timer = document.getElementById( "p2_timer" );
+
+	</script>
+
+	<script src="js/three.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/OrbitControls.js"></script>
+	<script src="js/Gameplay.js"></script>
+	<script src="js/Events.js"></script>
+	<script src="js/Misc.js"></script>
+	<script src="js/CardStats.js"></script>
+	<script src="js/Cards.js"></script>
+	<script src="js/client_world.js"></script>
+	<script src="js/ws_connection.js"></script>
+
+</body>
+</html>

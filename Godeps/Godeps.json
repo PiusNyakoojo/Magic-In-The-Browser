@@ -1,0 +1,13 @@
+{
+	"ImportPath": "_/C_/Users/PNyakoojo/go/MagicHack2",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"server"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "6eb6ad425a89d9da7a5549bc6da8f79ba5c17844"
+		}
+	]
+}
