@@ -1,7 +1,7 @@
 var addr = "localhost:8081"; // when selected: wss -> ws
 var pubAddr = document.domain; // when selected: ws -> wss
-//afternoon-taiga-9428.herokuapp.com
-var conn = new WebSocket( "ws://" + addr + "/ws" );
+//http://secret-garden-3353.herokuapp.com/
+var conn = new WebSocket( "wss://" + pubAddr + "/ws" );
 var connected = false;
 
 var data;
