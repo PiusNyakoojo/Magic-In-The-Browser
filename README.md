@@ -42,7 +42,7 @@ The *.project* file enables you to open this project in Eclipse ( make sure you 
 1) Set the GOPATH environment variable to the root directory of this project. Of course if you have other GOPATH routes just add
 
 ```
-;C:\Users\YourName\Desktop\golang_multiplayer_template
+;C:\Users\YourName\Desktop\Magic-In-The-Browser
 ```
 
 to the end of the value. Of course this is if you clone this repository to your Desktop :)
@@ -50,7 +50,7 @@ to the end of the value. Of course this is if you clone this repository to your 
 2) Open git bash terminal and change directory to be root of the project
 
 ```
-cd Desktop/golang_multiplayer_template
+cd Desktop/Magic-In-The-Browser
 ```
 
 3) In the same terminal enter the command:
