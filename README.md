@@ -1,7 +1,7 @@
 # Magic-In-The-Browser
 Play Magic the Gathering with friends online
 
-Try it here: secret-garden-3353.herokuapp.com
+###Try it here: http://secret-garden-3353.herokuapp.com
 
 This Project started as a "hack" during a 36 or so hour hackathon in Missouri ( WUHACK ).
 I've pushed it to github incase others would like to continue it.
