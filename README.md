@@ -1,12 +1,12 @@
 # Magic-In-The-Browser
 Play Magic the Gathering with friends online
 
-###Try it here: http://secret-garden-3353.herokuapp.com
+###Demo: http://secret-garden-3353.herokuapp.com
 
 This Project started as a "hack" during a 36 or so hour hackathon in Missouri ( WUHACK ).
 I've pushed it to github incase others would like to continue it.
 
-Here's an intro on how to use it thus far:  
+#Intro:
 1. Enter Username. You'll be placed in a lobby with others.  
 2. If no one else is in the lobby, open another tab and repeat step 1  
 3. In either tab, click on the name of the player you want to play with.  
@@ -19,7 +19,7 @@ Magic, The Gathering has 4 phases per turn: Main, Combat, Secondary, and End. He
 
 If you can't read the card, scroll over it (using mouse or mouse pad)-- sorry mobile users.. I recommend you play this on a laptop or desktop computer and in the chrome browser ( sorry, I didn't test FF, Safari, IE, or Opera yet..)
 
-Sort of a hack within a hack, I had fun adding a few "secret commands":  
+#"Hack" within a "hack": 
 1. Hold left mouse button + press j when it's your turn. See what happens tongue emoticon  
 2. Hold left mouse button + press h. You should be put in a sort of orbital perspective. You can click and drag the mouse around to rotate the camera around the mat. You can also pan but i don't recommend that since I didn't set a nice and slow pan speed. Zoom in and out using the mouse wheel if you'd like.
 
