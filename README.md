@@ -19,7 +19,7 @@ Magic, The Gathering has 4 phases per turn: Main, Combat, Secondary, and End. He
 
 If you can't read the card, scroll over it (using mouse or mouse pad)-- sorry mobile users.. I recommend you play this on a laptop or desktop computer and in the chrome browser ( sorry, I didn't test FF, Safari, IE, or Opera yet..)
 
-#"Hack" within a "hack": 
+#Secret Commands: 
 1. Hold left mouse button + press j when it's your turn. See what happens tongue emoticon  
 2. Hold left mouse button + press h. You should be put in a sort of orbital perspective. You can click and drag the mouse around to rotate the camera around the mat. You can also pan but i don't recommend that since I didn't set a nice and slow pan speed. Zoom in and out using the mouse wheel if you'd like.
 
